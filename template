@@ -1,0 +1,122 @@
+templates/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YellowRoam – Roam Like a Local</title>
+  <link rel="manifest" href="/manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #2c3631; /* Deep pine green */
+      color: #f4c542; /* Gold accent */
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .logo {
+      width: 160px;
+      height: auto;
+      margin: 30px auto 10px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #fffbe6;
+      margin: 0;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      color: #f4c542;
+      margin-bottom: 30px;
+    }
+    .prompt-box {
+      background-color: #3b4640;
+      border: 2px solid #f4c542;
+      padding: 15px;
+      border-radius: 10px;
+      color: #ffffff;
+      width: 90%;
+      max-width: 500px;
+      margin-bottom: 40px;
+      font-size: 1rem;
+    }
+    .pricing-section {
+      width: 90%;
+      max-width: 800px;
+      margin-bottom: 60px;
+    }
+    .pricing-section h2 {
+      color: #fffbe6;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .pricing-tier {
+      border: 1px solid #f4c542;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px 0;
+      background-color: #3b4640;
+      color: #fff;
+    }
+    .pricing-tier h3 {
+      color: #f4c542;
+      margin-bottom: 5px;
+    }
+    .pricing-tier p {
+      font-size: 0.95rem;
+      margin: 0;
+      color: #eee;
+    }
+    footer {
+      font-size: 0.85em;
+      color: #aaa;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="/static/yellowroam_logo.png" alt="YellowRoam Logo" class="logo">
+  <h1>YellowRoam</h1>
+  <p class="tagline">Roam Like a Local</p>
+
+  <div class="prompt-box">
+    <p>Ask anything about Yellowstone, Bozeman, or the Tetons…</p>
+  </div>
+
+  <section class="pricing-section">
+    <h2>Pricing Tiers</h2>
+
+    <div class="pricing-tier">
+      <h3>$ – Explorer</h3>
+      <p>Access to basic travel tools and public itinerary templates. Free forever.</p>
+    </div>
+
+    <div class="pricing-tier">
+      <h3>$$ – Trailblazer</h3>
+      <p>Unlock personalized itineraries, kid- and pet-friendly filters, and weather-smart planning.</p>
+    </div>
+
+    <div class="pricing-tier">
+      <h3>$$$ – Pathfinder</h3>
+      <p>Includes campground bookings, live route alerts, concierge chat support, and offline PWA mode.</p>
+    </div>
+
+    <div class="pricing-tier">
+      <h3>$$$$ – Expedition Elite</h3>
+      <p>All features plus trip curation, private guide connections, and seasonal insider perks.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 YellowRoam. All rights reserved.
+  </footer>
+
+</body>
+</html>
